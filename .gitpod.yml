@@ -7,3 +7,13 @@ tasks:
 ports:
   - port: 5173
     onOpen: open-browser 
+
+vscode:
+  extensions:
+    - svelte.svelte-vscode
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
