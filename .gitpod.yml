@@ -4,6 +4,6 @@ tasks:
      export HMR_HOST='gp url 5173'
      npm run dev
 
-port:
+ports:
   - port: 5173
     onOpen: open-browser 
